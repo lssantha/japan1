@@ -61,3 +61,22 @@ video {
     padding: 0 5px;
   }
 }
+
+.ad-banner {
+  width: 100%;
+  max-width: 728px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+.ad-banner iframe {
+  width: 100% !important;
+  max-width: 728px;
+  min-width: 320px;
+  height: auto !important;
+  min-height: 50px;
+  border: none;
+  display: block;
+}
